@@ -17,6 +17,7 @@ function getRandomUser(){
 		profileImage.src = res.results[0].picture.large;
 		profileHeading.innerHTML = res.results[0].name.first +" "+ res.results[0].name.last;
 		profileOutput.innerHTML = "";
+		//document.getElementById("Age").dataAttr = user.results[0].dob.age;
 	})
 	.catch();	
 }
